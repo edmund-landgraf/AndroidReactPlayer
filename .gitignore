@@ -1,0 +1,48 @@
+# OSX
+.DS_Store
+
+# Xcode (keep for future iOS support)
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserdata
+
+# Android
+android/app/build/
+android/.gradle/
+android/captures/
+android/local.properties
+android/app/debug.keystore
+*.apk
+*.aab
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Metro
+.metro-health-check*
+
+# Buck
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# Env
+.env
+.env.local
+
+# IDE
+.idea/
+*.iml
+.vscode/
